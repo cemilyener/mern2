@@ -1,0 +1,10 @@
+const moment = require('moment');
+
+const now = moment();
+const formattedDate = now.format('YYYY-MM-DD');
+console.log(formattedDate); // Örneğin: '2024-04-17'
+
+const daysDifference = moment('2024-04-17').diff(moment('2024-04-10'), 'days');
+console.log(daysDifference); // 7
+------------------------------------------------------------------------------------------
+
